@@ -7,7 +7,7 @@ syslog(LOG_WARNING, "Imported Cloud Storage Tools");
 //var_dump( $_GET);
 $imageName=$_GET["image"];
 $size=(int)$_GET["size"];
-$project
+$project=$_GET[
 syslog(LOG_WARNING, "Object URL $object_url");
 syslog(LOG_WARNING, "Size $size");
 $imageUrl="gs://project-5945470096966003818.appspot.com/projects/-KA0RszBdSrP0ju6ubZv/full/$imageName";
